@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.js">
+</head>
+
+<body>
+    <h1>Output</h1>
+ <p>JavaScript Output defines the ways to display the output of a given code. The output can be display by using four different ways which are listed below:</p> 
+ 
+ <h2> JavaScript Display Possibilities Using innerHTML</h2>
+ <p id="inner"></p>
+<h2>  JavaScript Display Possibilities Using document.write()</h2>
+<p id="doc"></p>
+<h2> JavaScript Display Possibilities Using window.alert()</h2>
+<p id="window"></p>
+<h2> JavaScript Display Possibilities Using console.log()</h2>
+<p id="log"></p>
+
+    <!-- innerHTML -->
+<script>
+
+        document.getElementById("inner").innerHTML
+                = 10 * 2;
+    
+</script>
+
+    <!-- document.write() -->
+<script>
+document.write(10 + 2);
+</script>
+
+    <!-- window.alert() -->
+<script>
+  window.alert(10 - 2);
+</script>
+
+ <!-- console.log() -->
+<script>
+console.log(10/2);
+</script>
+
+</body>
+</html>
