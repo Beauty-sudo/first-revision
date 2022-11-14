@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="operator.js">
+</head>
+<body>
+  <h1>operator</h1> 
+  <p>An operator is capable of manipulating a certain value or operand. Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc. There are various operators supported by JavaScript bellow are: </p> 
+  <h1>JavaScript Operators</h1>
+  <h2>The = Operator</h2>
+  <p id="opera"></p>
+  <h1>JavaScript Arithmetic</h1>
+<h2>The + Operator</h2>
+<p id="arithmetic"></p>
+
+<p>Input your age and click the button:</p>
+<input id="age" value="18" />
+<button onclick="myFunction()">Try it</button>
+<p id="compare"></p>
+
+  <!-- assignment -->
+  <script>
+    let x = 10;
+    document.getElementById("demo").innerHTML = x;
+    </script>
+    <script>
+        let a = 5;
+        let b = 2;
+        let c = a + b;
+        document.getElementById("arithmetic").innerHTML = z;
+        </script>
+       
+       
+       <!-- // Comparison -->
+        
+        <script>
+function myFunction() {
+  var age, voteable;
+  age = document.getElementById("age").value;
+  voteable = (age < 18) ? "Too young":"Old enough";
+  document.getElementById("compare").innerHTML = voteable + " to vote.";
+}
+        </script>
+</body>
+</html>
