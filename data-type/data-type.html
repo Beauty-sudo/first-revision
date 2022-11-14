@@ -13,6 +13,13 @@
 <h2>JavaScript Numbers</h2>
 <p>Numbers can be written with, or without decimals:</p>
 <p id="demo"></p>
+<h2>JavaScript Objects</h2>
+<p id="put"></p>
+
+<h2>JavaScript Strings</h2>
+<p>Strings are written with quotes. You can use single or double quotes:</p>
+<p id="ring"></p>
+
 
 <!-- numbers -->
 <script>
@@ -23,5 +30,26 @@ let x3 = 3.14;
 document.getElementById("demo").innerHTML =
 x1 + "<br>" + x2 + "<br>" + x3;
 </script>
+
+<!-- object -->
+<script>
+    const person = {
+      firstName : "John",
+      lastName  : "Doe",
+      age     : 50,
+      eyeColor  : "blue"
+    };
+    
+    document.getElementById("put").innerHTML =
+    person.firstName + " is " + person.age + " years old.";
+    </script>
+    <script>
+        let carName1 = "Volvo XC60";
+        let carName2 = 'Volvo XC60';
+        
+        document.getElementById("ring").innerHTML =
+        carName1 + "<br>" + 
+        carName2; 
+        </script>
 </body>
 </html>
